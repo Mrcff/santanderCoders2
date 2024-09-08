@@ -1,0 +1,61 @@
+.conteudo {
+    max-width: 75rem;
+    margin: 0 auto;
+}
+
+.subtitulo {
+    text-align: center;
+    background-color: #46d682;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 60px;
+    font-size: 2rem;
+    border-radius: 4px;
+}
+
+.subtitulo-itens {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.frutas-conteudo {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+
+.frutas-itens {
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.20);
+    border-radius: 4px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    border: 2px solid #46d682;
+    padding: 10px;
+}
+
+.fruta-imagem img {
+    width: 200px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.frutas-itens a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background-color: #5cc085;
+    padding: 10px 15px;
+    border-radius: 4px;
+}
+
+.frutas-itens a:hover {
+    background-color: #46d682;
+    transition: 400ms;
+}
+
+.conteudo-principal {
+    padding-bottom: 40px;
+}
+

@@ -1,0 +1,90 @@
+.header {
+    max-width: 75rem;
+    background-color: #5cc085;
+    padding: 2.5rem 1.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.menu-header {
+    display: flex;
+    gap: 1.25rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu-header a {
+    color: #fff;
+    font-size: 20px;
+}
+
+.logotipo {
+    color: #fff;
+    font-size: 24px;
+    display: block;
+}
+
+.imagem {
+    display: flex;
+    justify-content: center;
+}
+
+.img-header {
+    position: relative;
+    padding-bottom: 40px;
+}
+
+.conteudo-img {
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.botao-header {
+    color: #fff;
+    background-color: #5cc085;
+    font-size: 20px;
+    padding: 16px 32px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.botao-header:hover {
+    background-color: #46d682;
+    transition: 400ms;
+}
+
+.buscar-box {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 8px 16px 8px 8px;
+    border-radius: 24px;
+    gap: 8px;
+    width: 400px;
+}
+
+.lupa-buscar {
+    min-width: 32px;
+    min-height: 32px;
+    background-color: #5cc085;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+}
+
+.input {
+    width: 100%;
+    border: none;
+    background-color: transparent;
+}
+
+.input:focus {
+    outline: none;
+}
