@@ -1,0 +1,82 @@
+main {
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 40px 0px;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
+    border-radius: 4px;
+}
+
+.imagem-container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: #46d682;
+    border-radius: 4px 0px 0px 4px;
+}
+
+.imagem-container img {
+    width: 31rem;
+}
+
+.form {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 3rem;
+    border-radius: 4px;
+}
+
+.input-itens {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+}
+
+.input-itens input {
+    margin: 0.6 rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+}
+
+.input-itens input:hover {
+    background-color: #eeeeee75;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao a {
+    padding: 12px 24px;
+    background-color: #5cc085;
+    border-radius: 4px;
+    color: #fff;
+}
+
+.botao a:hover {
+    background-color: #46d682;
+    transition: 400ms;
+}
+
+.subtitulo-lista {
+    text-align: center;
+}
