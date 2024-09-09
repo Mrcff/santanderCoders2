@@ -14,6 +14,7 @@ main {
     display: flex;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
     border-radius: 4px;
+    margin-bottom: 60px;
 }
 
 .imagem-container {
@@ -53,6 +54,7 @@ main {
     border: none;
     border-radius: 10px;
     box-shadow: 1px 1px 6px #0000001c;
+    width: 300px;
 }
 
 .input-itens input:hover {
@@ -65,18 +67,39 @@ main {
     align-items: center;
 }
 
-.botao a {
+.botao button {
     padding: 12px 24px;
     background-color: #5cc085;
     border-radius: 4px;
     color: #fff;
+    border: none;
+    cursor: pointer;
 }
 
-.botao a:hover {
+.botao button:hover {
     background-color: #46d682;
     transition: 400ms;
 }
 
 .subtitulo-lista {
     text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 8px;
+    text-align: center;
+}
+th {
+    background-color: #f2f2f2;
+}
+
+.lista-espacamento {
+    padding-bottom: 40px;
 }

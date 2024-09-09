@@ -44,8 +44,8 @@
                 <form action="#" method="post">
                     <div class="inputs">
                         <div class="input-itens">
-                            <label for="imagem">Imagem</label>
-                            <input type="file" id="imagem" name="imagem">
+                            <label for="imagem">Imagem URL</label>
+                            <input type="text" id="imagem" name="imagem">
                         </div>
                         <div class="input-itens">
                             <label for="descricao">Descrição</label>
@@ -57,16 +57,70 @@
                         </div>
                     </div>
                     <div class="botao">
-                        <a href="#">Confirmar</a>
+                        <button type="submit" id="submit" onclick="AddData()">Salvar Produto</button>
                     </div>
                 </form>
             </div>
         </div>
 
         <div class="lista-produtos">
+            <hr>
             <h2 class="subtitulo-lista">Lista dos Produtos</h2>
-            <div class="lista-ul">
-                
+            <div class="lista-frutas lista-espacamento">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Imagem URL</th>
+                            <th>Descrição</th>
+                            <th>Preço</th>
+                            <th>Editar</th>
+                            <th>Excluir</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+            <div class="lista-vegetais lista-espacamento">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Imagem URL</th>
+                            <th>Descrição</th>
+                            <th>Preço</th>
+                            <th>Editar</th>
+                            <th>Excluir</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+            <div class="lista-legumes lista-espacamento">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Imagem URL</th>
+                            <th>Descrição</th>
+                            <th>Preço</th>
+                            <th>Editar</th>
+                            <th>Excluir</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+            <div class="lista-sucos lista-espacamento">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Imagem URL</th>
+                            <th>Descrição</th>
+                            <th>Preço</th>
+                            <th>Editar</th>
+                            <th>Excluir</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
             </div>
         </div>
     </main>
@@ -77,6 +131,8 @@
     </footer>
 
     <script src="js/index.js"></script>
+
 </body>
 
 </html>
+    
