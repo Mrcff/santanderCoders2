@@ -1,14 +1,16 @@
-const tbodyFrutas = document.getElementById('tbody-frutas');
+const divFrutas = document.getElementById('frutas');
 
-function tabelaFruta() {
+function criaDivFrutas() {
+    let frutas = getFrutas();
+    divFrutas.innerHTML = '';
     frutas.forEach((fruta, index) =>{
-        let newRow = document.createElement('tr');
-        newRow.innerHTML = `<td>${fruta.imagem}</td>
-                            <td>${fruta.nome}</td>
-                            <td>R$ ${fruta.preco}</td>
-                            <td><button><i class="bi bi-pencil-square"></i></button></td>
-                            <td><button onclick='deleteFruta(${fruta.nome})'><i class="bi bi-trash3-fill"></i></button></td>`
-        tbodyFrutas.appendChild(newRow);
+        let newCard = document.createElement('div');
+        newCard.classList.add('frutas-itens');
+        newCard.innerHTML = `<div class="fruta-imagem"><img src="${fruta.imagem}" alt="${fruta.nome}"></div>
+                            <h4>${fruta.nome}</h4>
+                            <p>R$ ${fruta.preco}Kg</p>
+                            <a href="#"><i class="bi bi-cart2"></i> Adicionar</a>`
+        divFrutas.appendChild(newCard);
     })
 }
-tabelaFruta();
+criaDivFrutas();

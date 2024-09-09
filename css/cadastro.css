@@ -103,3 +103,15 @@ th {
 .lista-espacamento {
     padding-bottom: 40px;
 }
+
+.tablebtn {
+    text-decoration: none;
+    color: #5cc085;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.tablebtn.removebtn {
+    color: rgb(168, 32, 32);
+}
