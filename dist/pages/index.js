@@ -1,20 +1,11 @@
-interface Fruta {
-  nome: string;
-  imagem: string;
-  preco: string;
+"use strict";
+const divFrutas = document.getElementById("frutas");
+function getFrutas() {
+    return [
+        { nome: "Banana", imagem: "banana.png", preco: "4,99" },
+        { nome: "Maçã", imagem: "maca.png", preco: "8,99" },
+    ];
 }
-
-const divFrutas = document.getElementById("frutas") as HTMLDivElement;
-
-function getFrutas(): Fruta [] {
-
-  return [
-    { nome: "Banana", imagem: "banana.png", preco: "4,99" },
-    { nome: "Maçã", imagem: "maca.png", preco: "8,99" },
-    
-  ]
-}
-
 //   frutas.forEach((fruta) => {
 //     let newCard = document.createElement("div");
 //     newCard.classList.add("frutas-itens");
@@ -22,7 +13,6 @@ function getFrutas(): Fruta [] {
 //                              <h4>${fruta.nome}</h4>
 //                              <p>R$ ${fruta.preco}Kg</p>
 //                              <a href="#"><i class="bi bi-cart2"></i> Adicionar</a>`;
-
 //     divFrutas.appendChild(newCard);
 //   });
 // }
